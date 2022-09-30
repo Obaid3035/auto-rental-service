@@ -1,0 +1,45 @@
+.total_earning {
+    background-color: #fff;
+    padding: 14px 10px;
+    border-radius: 10px;
+}
+
+.total_earning p {
+    font-size:15px;
+}
+
+.total_earning h5 {
+    font-size: 18px;
+    color: #4AD991
+}
+
+.total_earning svg {
+    font-size: 25px;
+    margin-right: 12px;
+}
+.report_stats .stats {
+    background-color: white;
+    width: auto;
+    height: 102px;
+    border: 1px solid #ced4da;
+    box-shadow: 0 1px 4px 0 #ced4d9;
+    margin-bottom: 10px;
+}
+
+.stats svg {
+    font-size: 40px;
+}
+
+.MuiInputBase-input {
+    height: 2.5em!important;
+}
+
+.z_index {
+    z-index: 9;
+}
+
+@media (max-width: 767px) {
+    .report_stats .stats {
+        width: 202px;
+    }
+}

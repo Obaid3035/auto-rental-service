@@ -1,0 +1,89 @@
+.error {
+    color: red;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+#auth {
+    overflow: hidden;
+}
+input.field-input-error {
+    background-color: #F7F7F7;
+    border-width: 0 0 0 5px;
+    border-left-color: red;
+    padding: 25px 10px;
+    border-radius: 0;
+}
+
+#auth input.field-input-error:focus {
+    box-shadow: none;
+    border-left-color: red;
+}
+
+input.field-input {
+    background-color: #F7F7F7;
+    border-width: 0 0 0 5px;
+    border-left-color: red;
+    padding: 25px 10px;
+    border-radius: 0;
+}
+
+#auth input.field-input::placeholder {
+    opacity: 0.3;
+}
+
+#auth input.field-input:focus {
+    box-shadow: none;
+    border-left-color: #077FF6;
+}
+
+#auth button {
+    font-weight: bold;
+}
+
+.heading-blue {
+    color: black;
+    font-weight: bold;
+}
+
+#login-heading {
+    margin: 0 0 40px;
+}
+
+#left-section {
+    background-image: url('car.png');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#container h1 {
+    color: white;
+}
+
+#already-to-login {
+    cursor: pointer;
+}
+
+input.file-input {
+    border: none;
+}
+
+input.file-input:focus {
+    box-shadow: none;
+}
+
+@media (max-width: 767px) {
+    #left-section {
+        display: none;
+    }
+    .form_div {
+        height: 100vh;
+        align-items: center;
+        display: flex;
+        flex-flow: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+}
+

@@ -1,0 +1,12 @@
+.report_stats {
+    width: 100%;
+    display: flex;
+    justify-content: space-around
+}
+
+@media (max-width: 767px) {
+    .report_stats {
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+}

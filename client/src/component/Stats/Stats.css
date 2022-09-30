@@ -1,0 +1,28 @@
+.dashboard_card {
+    padding: 19px 23px 19px 24px;
+    background: #FF0202;
+    border-radius: 9px;
+    box-shadow: 0 0 12px -8px black;
+    cursor: pointer;
+}
+
+.dashboard_card:hover .dashboard_icon{
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+.dashboard_card .value {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.dashboard_card p {
+    color: white
+}
+
+.dashboard_icon {
+    width: 80px;
+    font-size: 88px;
+    fill: white;
+    opacity: 0.3
+}

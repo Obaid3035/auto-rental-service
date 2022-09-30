@@ -1,0 +1,9 @@
+.customer_table {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 0px #00000054;
+}
+
+table.customer_table th {
+    border: 0;
+}

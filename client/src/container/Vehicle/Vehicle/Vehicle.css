@@ -1,0 +1,21 @@
+.vehicle_tree_view .MuiTreeItem-label {
+    color: grey;
+    font-weight: bold!important;
+}
+
+.vehicle_tree_view {
+    box-shadow: 0px 2px 8px 3px rgb(0 0 0 / 10%);
+    background: white;
+    padding: 28px;
+}
+
+.MuiTreeItem-content {
+    padding: 3px 8px!important;
+}
+
+@media (max-width: 767px) {
+    .edit__btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,152 @@
+.action {
+    padding: 14px 15px;
+    border-radius: 7px;
+    border: none;
+}
+
+.delete_modal .modal-content {
+    align-items: center;
+    padding: 20px;
+}
+.delete_modal .delete_yes {
+    background-color: #DB1B1B;
+}
+
+.delete_modal .delete_yes:hover {
+    background-color: #b41717;
+}
+
+
+.edit_action {
+    background-color: #DAF7E8;
+    transition: all 0.2s ease;
+}
+
+.edit_action svg {
+    fill: #4AD991;
+}
+
+.edit_action:hover {
+    background-color: #4AD991;
+}
+
+.edit_action:hover svg {
+    fill: #DAF7E8;
+}
+
+.payment_action {
+    background-color: #FFF4E5;
+    transition: all 0.2s ease;
+}
+
+.payment_action svg {
+    fill: #FECA83;
+}
+
+.payment_action:hover {
+    background-color: #FECA83;
+}
+
+.payment_action:hover svg {
+    fill: #FFF4E5;
+}
+
+.delete_action {
+    background-color: #FFE2E6;
+}
+
+
+.delete_action svg {
+    fill: #FD7285;
+}
+
+.delete_action:hover {
+    background-color: #FD7285;
+}
+
+.delete_action:hover svg {
+    fill: #FFE2E6;
+}
+
+.view_action {
+    background-color: #E8E7FF;
+}
+
+.view_action svg {
+    fill: #818CFB;
+}
+
+.view_action:hover {
+    background-color: #818CFB;
+}
+
+.view_action:hover svg {
+    fill: #E8E7FF;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.close_action {
+    background-color: #DDEAFF;
+}
+.close_action svg {
+    fill: #0061FF;
+}
+.close_action:hover {
+    background-color: #0061FF;
+}
+.close_action:hover svg {
+    fill: #DDEAFF;
+}
+
+.red_action {
+    background-color: #ffdddd;
+}
+.red_action svg {
+    fill: #F60000FF;
+}
+.red_action:hover {
+    background-color: #F60000FF;
+}
+.red_action:hover svg {
+    fill: #ffdddd;
+}
+
+button {
+    background-color: #DB1B1B;
+    border: none;
+    color: #fff;
+    align-items: center;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: #DB1B1B86;
+}
+
+.tabs button {
+    background-color: #fff;
+    color: black;
+}
+
+.tabs button:hover {
+    background-color: #fff;
+    color: #DB1B1B86;
+}
+
+.tabs button.active {
+    background-color: #ff0000!important;
+    color: white!important;
+    max-width: 8rem;
+}
+
+@media (max-width: 767px) {
+    .header {
+    flex-direction: column;
+        margin-bottom: 15px;
+    }
+}

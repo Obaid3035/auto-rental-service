@@ -1,0 +1,12 @@
+.not_found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.not_found h1 {
+    font-weight: 900;
+    color: red;
+    font-size: 60px;
+}

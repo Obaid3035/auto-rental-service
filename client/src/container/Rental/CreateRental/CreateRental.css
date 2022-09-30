@@ -1,0 +1,54 @@
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    width: 100%;
+    background: #fff;
+}
+
+.rental_type {
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.create_form {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ced4da;
+}
+
+.create_form div {
+    margin: 3px 0 5px 0;
+}
+
+.create_form div label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #43425D
+}
+
+.tick-form {
+    background-color: white;
+    border: 1px solid #ced4da;
+    padding: 20px 20px 20px 30px;
+    border-radius: 5px;
+}
+
+@media (max-width: 767px) {
+    .rental_type {
+        background-color: #fff;
+        border: 1px solid #ced4da;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .create_form div {
+        font-size: 13px;
+    }
+    .rental_div h2 {
+        font-size: 17px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+}

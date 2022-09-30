@@ -1,0 +1,10 @@
+.expense svg {
+    font-size: 38px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.expense svg:hover {
+    fill: red;
+}
+
